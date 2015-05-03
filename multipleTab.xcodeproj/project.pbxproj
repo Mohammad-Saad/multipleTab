@@ -14,6 +14,7 @@
 		28A9EA6B1AF38E850075510F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9EA6A1AF38E850075510F /* Images.xcassets */; };
 		28A9EA6E1AF38E850075510F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A9EA6C1AF38E850075510F /* LaunchScreen.xib */; };
 		28A9EA7A1AF38E850075510F /* multipleTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9EA791AF38E850075510F /* multipleTabTests.swift */; };
+		28A9EA861AF396770075510F /* ThirdViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9EA851AF396770075510F /* ThirdViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		28A9EA731AF38E850075510F /* multipleTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipleTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A9EA781AF38E850075510F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28A9EA791AF38E850075510F /* multipleTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleTabTests.swift; sourceTree = "<group>"; };
+		28A9EA851AF396770075510F /* ThirdViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewViewController.swift; path = ../ThirdViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				28A9EA611AF38E850075510F /* AppDelegate.swift */,
 				28A9EA631AF38E850075510F /* FirstViewController.swift */,
 				28A9EA651AF38E850075510F /* SecondViewController.swift */,
+				28A9EA851AF396770075510F /* ThirdViewViewController.swift */,
 				28A9EA671AF38E850075510F /* Main.storyboard */,
 				28A9EA6A1AF38E850075510F /* Images.xcassets */,
 				28A9EA6C1AF38E850075510F /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A9EA661AF38E850075510F /* SecondViewController.swift in Sources */,
+				28A9EA861AF396770075510F /* ThirdViewViewController.swift in Sources */,
 				28A9EA621AF38E850075510F /* AppDelegate.swift in Sources */,
 				28A9EA641AF38E850075510F /* FirstViewController.swift in Sources */,
 			);
